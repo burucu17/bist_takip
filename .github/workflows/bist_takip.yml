@@ -1,4 +1,4 @@
-name: BIST_Takip
+name: bist_takip
 
 on:
   schedule:
