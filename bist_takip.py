@@ -12,11 +12,6 @@ CHAT_ID = os.environ.get("CHAT_ID", "")
 
 # BIST 100 Hisse Listesi (Geniş Tarama)
 BIST_100 = [
-   
-    # Holdingler
-    "TAVHL.IS", "EKGYO.IS", 
-    # Sanayi ve Üretim
-    "KRDMA.IS", "KRDMD.IS", "KRDMB.IS", "ISDMR.IS", "EREGL.IS", "ASELS.IS",
     # Enerji
     "ASTOR.IS", "ENKAI.IS", "GESAN.IS", "SMRTG.IS", "AYEN.IS", "EUPWR.IS", "SMRTG.IS",
     "YEOTK.IS", "BIOEN.IS",
@@ -28,9 +23,7 @@ BIST_100 = [
     "AKSA.IS", "KMPUR.IS", "SASA.IS", "BRKSN.IS", "DNISI.IS", "MERCN.IS", "TMPOL.IS", "PNLSN.IS",
     # Diğer Popüler
     "CVKMD.IS", "QUAGR.IS", "BIENY.IS", "EUREN.IS", "TEZOL.IS","LILAK.IS", "BARMA.IS",
-    
 ]
-
 def telegram_mesaj_gonder(mesaj):
     try:
         url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
