@@ -12,25 +12,20 @@ CHAT_ID = os.environ.get("CHAT_ID", "")
 
 # BIST 100 Hisse Listesi (Geniş Tarama)
 BIST_100 = [
-    # Bankalar
-    "ALBRK.IS", 
+   
     # Holdingler
-    "TAVHL.IS", "EKGYO.IS", "BRLSM.IS", "SISE.IS", 
+    "TAVHL.IS", "EKGYO.IS", 
     # Sanayi ve Üretim
-    "OTKAR.IS", "TTRAK.IS", "KRDMA.IS", "KRDMD.IS", "KRDMB.IS", "ISDMR.IS", "EREGL.IS", "ECILC.IS", "ASELS.IS",
+    "KRDMA.IS", "KRDMD.IS", "KRDMB.IS", "ISDMR.IS", "EREGL.IS", "ASELS.IS",
     # Enerji
-    "ASTOR.IS", "ENKAI.IS", "GESAN.IS", "GWIND.IS", "SMRTG.IS", "TUPRS.IS", "AKSEN.IS", "AYEN.IS", "EUPWR.IS", "SMRTG.IS",
+    "ASTOR.IS", "ENKAI.IS", "GESAN.IS", "SMRTG.IS", "AYEN.IS", "EUPWR.IS", "SMRTG.IS",
     "YEOTK.IS", "BIOEN.IS",
-    # Perakende ve Gıda
-    "BIMAS.IS", "SOKM.IS", 
     # Teknoloji
-    "LOGO.IS", "KONTR.IS", "KLSER.IS", "NETAS.IS", "LINK.IS", "MIATK.IS", "FONET.IS", "FORTE.IS",
-    # Havacılık ve Ulaştırma
-    "THYAO.IS", "PGSUS.IS", "TCELL.IS", "TTKOM.IS",
+    "LOGO.IS", "LINK.IS", "MIATK.IS", "FONET.IS", "FORTE.IS",
     # Çimento ve Yapı
-    "AKCNS.IS", "CIMSA.IS", "NUHCM.IS", "BUCIM.IS", "KLKIM.IS", "KOPOL.IS",
+    "BUCIM.IS", "KLKIM.IS", "KOPOL.IS",
     # Kimya ve İlaç
-    "AKSA.IS", "HEKTS.IS", "KMPUR.IS", "SASA.IS", "TKFEN.IS", "BRKSN.IS", "DNISI.IS", "MERCN.IS", "TMPOL.IS", "PNLSN.IS",
+    "AKSA.IS", "KMPUR.IS", "SASA.IS", "BRKSN.IS", "DNISI.IS", "MERCN.IS", "TMPOL.IS", "PNLSN.IS",
     # Diğer Popüler
     "CVKMD.IS", "QUAGR.IS", "BIENY.IS", "EUREN.IS", "TEZOL.IS","LILAK.IS", "BARMA.IS",
     
