@@ -13,31 +13,27 @@ CHAT_ID = os.environ.get("CHAT_ID", "")
 # BIST 100 Hisse Listesi (Geniş Tarama)
 BIST_100 = [
     # Bankalar
-    "AKBNK.IS", "GARAN.IS", "ISCTR.IS", "YKBNK.IS", "VAKBN.IS", "HALKB.IS", "QNBFB.IS", "TSKB.IS", "ALBRK.IS", "SKBNK.IS",
+    "AKBNK.IS",
     # Holdingler
-    "KCHOL.IS", "SAHOL.IS", "DOHOL.IS", "TAVHL.IS", "GOLTS.IS", "EKGYO.IS", "EUPWR.IS", "BRLSM.IS", "VESBE.IS",
+    "TAVHL.IS","EKGYO.IS", "EUPWR.IS", 
     # Sanayi ve Üretim
-    "FROTO.IS", "TOASO.IS", "DOAS.IS", "KARTN.IS", "OTKAR.IS", "TTRAK.IS", "KRDMA.IS", "KRDMD.IS", "KRDME.IS", "ISDMR.IS",
+    "KARTN.IS", "OTKAR.IS", "TTRAK.IS", "KRDMA.IS", "KRDMD.IS", "ISDMR.IS",
     # Enerji
-    "ASTOR.IS", "ENJSA.IS", "ENKAI.IS", "GESAN.IS", "GWIND.IS", "KONYA.IS", "ODAS.IS", "PENGD.IS", "SMRTG.IS", "TUPRS.IS", "AKSEN.IS", "AYEN.IS",
+    "ENKAI.IS", "GESAN.IS", "GWIND.IS", "ODAS.IS", "PENGD.IS", "SMRTG.IS", "TUPRS.IS", "AKSEN.IS", "AYEN.IS",
     # Perakende ve Gıda
-    "BIMAS.IS", "MGROS.IS", "SOKM.IS", "KLRHO.IS", "MAALT.IS", "TATGD.IS", "KRTEK.IS", "ULKER.IS", "AEFES.IS",
+    "BIMAS.IS", "SOKM.IS",
     # Teknoloji
-    "LOGO.IS", "KONTR.IS", "KLSER.IS", "OZATD.IS", "NETAS.IS", "LINK.IS", "INVEO.IS",
+    "LOGO.IS", "KONTR.IS", "KLSER.IS", "NETAS.IS", "LINK.IS", "INVEO.IS",
     # Havacılık ve Ulaştırma
     "THYAO.IS", "PGSUS.IS", "TCELL.IS", "TTKOM.IS",
     # Çimento ve Yapı
-    "AKCNS.IS", "BOLUC.IS", "CIMSA.IS", "KZBGY.IS", "NUHCM.IS", "OYAKC.IS", "USAK.IS",
+    "AKCNS.IS", "BOLUC.IS", "CIMSA.IS", "KZBGY.IS", "NUHCM.IS", "OYAKC.IS",
     # Kimya ve İlaç
-    "EUPWR.IS", "HEKTS.IS", "KMPUR.IS", "SASA.IS", "TKFEN.IS",
+    "EUPWR.IS", "HEKTS.IS", "KMPUR.IS", "SASA.IS",
     # Sigorta
-    "ANSGR.IS", "AKGRT.IS", "AKSIG.IS", "GUBRF.IS",
+    
     # Diğer Popüler
-    "ARCLK.IS", "ASELS.IS", "BIMAS.IS", "EREGL.IS", "KOZAA.IS", "KOZAL.IS", "PETKM.IS", "SISE.IS", "VESTL.IS", "YKBNK.IS",
-    "BRISA.IS", "CCOLA.IS", "CEMAS.IS", "CIMSA.IS", "DAPGN.IS", "DESA.IS", "ECILC.IS", "EGEEN.IS", "ENKAI.IS", "FROTO.IS",
-    "GUBRF.IS", "KCHOL.IS", "KONTR.IS", "KRDMA.IS", "LOGO.IS", "MGROS.IS", "OTKAR.IS", "PGSUS.IS", "SAHOL.IS", "SASA.IS",
-    "TAVHL.IS", "THYAO.IS", "TOASO.IS", "TTRAK.IS", "TUPRS.IS", "ULKER.IS", "VAKBN.IS", "VESTL.IS", "YKBNK.IS"
-]
+    "ASELS.IS",  "EREGL.IS",  "PETKM.IS", "SISE.IS", "ECILC.IS", "ENKAI.IS",  "KRDMB.IS", "OTKAR.IS", ]
 
 def telegram_mesaj_gonder(mesaj):
     try:
