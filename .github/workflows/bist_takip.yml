@@ -2,9 +2,9 @@ name: bist_takip
 
 on:
   schedule:
-    - cron: '0 7 * * 1-5'    # Türkiye 10:30
-    - cron: '0 9 * * 1-5'    # Türkiye 12:00
-    - cron: '0 14 * * 1-5'   # Türkiye 17:00
+    - cron : '0 7 * * 1-5'    # Türkiye 10:30
+    - cron : '0 9 * * 1-5'    # Türkiye 12:00
+    - cron : '0 14 * * 1-5'   # Türkiye 17:00
   
   workflow_dispatch:  # Manuel çalıştırma
 
