@@ -13,27 +13,28 @@ CHAT_ID = os.environ.get("CHAT_ID", "")
 # BIST 100 Hisse Listesi (Geniş Tarama)
 BIST_100 = [
     # Bankalar
-    "AKBNK.IS",
+    "ALBRK.IS", 
     # Holdingler
-    "TAVHL.IS","EKGYO.IS", "EUPWR.IS", 
+    "TAVHL.IS", "EKGYO.IS", "BRLSM.IS", "SISE.IS", 
     # Sanayi ve Üretim
-    "KARTN.IS", "OTKAR.IS", "TTRAK.IS", "KRDMA.IS", "KRDMD.IS", "ISDMR.IS",
+    "OTKAR.IS", "TTRAK.IS", "KRDMA.IS", "KRDMD.IS", "KRDMB.IS", "ISDMR.IS", "EREGL.IS", "ECILC.IS", "ASELS.IS",
     # Enerji
-    "ENKAI.IS", "GESAN.IS", "GWIND.IS", "ODAS.IS", "PENGD.IS", "SMRTG.IS", "TUPRS.IS", "AKSEN.IS", "AYEN.IS",
+    "ASTOR.IS", "ENKAI.IS", "GESAN.IS", "GWIND.IS", "SMRTG.IS", "TUPRS.IS", "AKSEN.IS", "AYEN.IS", "EUPWR.IS", "SMRTG.IS",
+    "YEOTK.IS", "BIOEN.IS",
     # Perakende ve Gıda
-    "BIMAS.IS", "SOKM.IS",
+    "BIMAS.IS", "SOKM.IS", 
     # Teknoloji
-    "LOGO.IS", "KONTR.IS", "KLSER.IS", "NETAS.IS", "LINK.IS", "INVEO.IS",
+    "LOGO.IS", "KONTR.IS", "KLSER.IS", "NETAS.IS", "LINK.IS", "MIATK.IS", "FONET.IS", "FORTE.IS",
     # Havacılık ve Ulaştırma
     "THYAO.IS", "PGSUS.IS", "TCELL.IS", "TTKOM.IS",
     # Çimento ve Yapı
-    "AKCNS.IS", "BOLUC.IS", "CIMSA.IS", "KZBGY.IS", "NUHCM.IS", "OYAKC.IS",
+    "AKCNS.IS", "CIMSA.IS", "NUHCM.IS", "BUCIM.IS", "KLKIM.IS", "KOPOL.IS",
     # Kimya ve İlaç
-    "EUPWR.IS", "HEKTS.IS", "KMPUR.IS", "SASA.IS",
-    # Sigorta
-    
+    "AKSA.IS", "HEKTS.IS", "KMPUR.IS", "SASA.IS", "TKFEN.IS", "BRKSN.IS", "DNISI.IS", "MERCN.IS", "TMPOL.IS", "PNLSN.IS",
     # Diğer Popüler
-    "ASELS.IS",  "EREGL.IS",  "PETKM.IS", "SISE.IS", "ECILC.IS", "ENKAI.IS",  "KRDMB.IS", "OTKAR.IS", ]
+    "CVKMD.IS", "QUAGR.IS", "BIENY.IS", "EUREN.IS", "TEZOL.IS","LILAK.IS", "BARMA.IS",
+    
+]
 
 def telegram_mesaj_gonder(mesaj):
     try:
