@@ -12,28 +12,31 @@ CHAT_ID = os.environ.get("CHAT_ID", "")
 
 # BIST 100 Hisse Listesi (Geniş Tarama)
 BIST_100 = [
-    
+    # Bankalar
+    "AKBNK.IS", "GARAN.IS", "ISCTR.IS", "YKBNK.IS", "VAKBN.IS", "HALKB.IS", "QNBFB.IS", "TSKB.IS", "ALBRK.IS", "SKBNK.IS",
     # Holdingler
-    "TAVHL.IS", "EKGYO.IS", "TEKFEN.IS", "EFOR.IS"
+    "KCHOL.IS", "SAHOL.IS", "DOHOL.IS", "TAVHL.IS", "GOLTS.IS", "EKGYO.IS", "EUPWR.IS", "BRLSM.IS", "VESBE.IS",
     # Sanayi ve Üretim
-    "FROTO.IS", "TOASO.IS", "KARTN.IS", "OTKAR.IS", "TTRAK.IS", "KRDMA.IS", "KRDMD.IS", "KRDMB.IS", "ISDMR.IS", 
-    "CEMTS.IS", "ERCB.IS", "PNLSN.IS", "TMPOL.IS", "TEZOL.IS", "LILA.IS", "CVKMD.IS", "TMSN.IS", "YATAS.IS", "YUNSA.IS",
+    "FROTO.IS", "TOASO.IS", "DOAS.IS", "KARTN.IS", "OTKAR.IS", "TTRAK.IS", "KRDMA.IS", "KRDMD.IS", "KRDME.IS", "ISDMR.IS",
     # Enerji
-    "ASTOR.IS", "ENJSA.IS", "ENKAI.IS", "GESAN.IS", "GWIND.IS", , "ODAS.IS", , "SMRTG.IS", "TUPRS.IS", "AKSEN.IS",
-      "AYEN.IS", "EUPWR.IS", "BIOEN.IS", "AYEN.IS", "AYDEM.IS", 
+    "ASTOR.IS", "ENJSA.IS", "ENKAI.IS", "GESAN.IS", "GWIND.IS", "KONYA.IS", "ODAS.IS", "PENGD.IS", "SMRTG.IS", "TUPRS.IS", "AKSEN.IS", "AYEN.IS",
     # Perakende ve Gıda
-    "BIMAS.IS", "SOKM.IS", "TATGD.IS", "TUKAS.IS", "ELITE.IS", 
+    "BIMAS.IS", "MGROS.IS", "SOKM.IS", "KLRHO.IS", "MAALT.IS", "TATGD.IS", "KRTEK.IS", "ULKER.IS", "AEFES.IS",
     # Teknoloji
-    "ASELS.IS", "FONET.IS", "LOGO.IS", "FORTE.IS", "ARDYZ.IS", "ALTNY.IS", "LINK.IS", "MIATK.IS", "NETCD.IS", "ODINE.IS",
-    "SDTTR.IS", "SMRTG.IS", 
+    "LOGO.IS", "KONTR.IS", "KLSER.IS", "OZATD.IS", "NETAS.IS", "LINK.IS", "INVEO.IS",
     # Havacılık ve Ulaştırma
-    "THYAO.IS", "PGSUS.IS", "TCELL.IS", "TTKOM.IS", "EKIM.IS"
+    "THYAO.IS", "PGSUS.IS", "TCELL.IS", "TTKOM.IS",
     # Çimento ve Yapı
-    "AKCNS.IS", "BUCIM.IS", "CGCAM.ISI", "CIMSA.IS", "NUHCM.IS", "KLKIM.IS", "KLSER.IS",
+    "AKCNS.IS", "BOLUC.IS", "CIMSA.IS", "KZBGY.IS", "NUHCM.IS", "OYAKC.IS", "USAK.IS",
     # Kimya ve İlaç
-    "ALKIM.IS", "AKSA.IS", "BRKSN.IS", "DNISI,IS", "KOPOL.IS", "KMPUR.IS", "MERCN.IS", "SASA.IS", "ORZAX.IS", "GENKM.IS",
+    "EUPWR.IS", "HEKTS.IS", "KMPUR.IS", "SASA.IS", "TKFEN.IS",
+    # Sigorta
+    "ANSGR.IS", "AKGRT.IS", "AKSIG.IS", "GUBRF.IS",
     # Diğer Popüler
-    "BNTAS.IS", "UCAYM.IS", "BARMA.IS", "ECILC.IS", "GEDZA.IS", "ARFYE.IS", "OZRDN.IS", "QUAGR.IS", "BIENY.IS",
+    "ARCLK.IS", "ASELS.IS", "BIMAS.IS", "EREGL.IS", "KOZAA.IS", "KOZAL.IS", "PETKM.IS", "SISE.IS", "VESTL.IS", "YKBNK.IS",
+    "BRISA.IS", "CCOLA.IS", "CEMAS.IS", "CIMSA.IS", "DAPGN.IS", "DESA.IS", "ECILC.IS", "EGEEN.IS", "ENKAI.IS", "FROTO.IS",
+    "GUBRF.IS", "KCHOL.IS", "KONTR.IS", "KRDMA.IS", "LOGO.IS", "MGROS.IS", "OTKAR.IS", "PGSUS.IS", "SAHOL.IS", "SASA.IS",
+    "TAVHL.IS", "THYAO.IS", "TOASO.IS", "TTRAK.IS", "TUPRS.IS", "ULKER.IS", "VAKBN.IS", "VESTL.IS", "YKBNK.IS"
 ]
 
 def telegram_mesaj_gonder(mesaj):
