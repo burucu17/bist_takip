@@ -12,27 +12,24 @@ CHAT_ID = os.environ.get("CHAT_ID", "")
 
 # BIST 100 Hisse Listesi (Geniş Tarama)
 BIST_100 = [
-    # Bankalar
-    "ALBRK.IS", 
     # Holdingler
-    "TAVHL.IS", "EKGYO.IS", "BRLSM.IS", "SISE.IS", 
+    "TAVHL.IS", "EKGYO.IS", 
     # Sanayi ve Üretim
-    "OTKAR.IS", "TTRAK.IS", "KRDMA.IS", "KRDMD.IS", "KRDMB.IS", "ISDMR.IS", "EREGL.IS", "ECILC.IS", "ASELS.IS",
+    "AKSA.IS", "KRDMA.IS", "KRDMD.IS", "KRDMB.IS", "ISDMR.IS", "EREGL.IS", 
     # Enerji
-    "ASTOR.IS", "ENKAI.IS", "GESAN.IS", "GWIND.IS", "SMRTG.IS", "TUPRS.IS", "AKSEN.IS", "AYEN.IS", "EUPWR.IS", "SMRTG.IS",
-    "YEOTK.IS", "BIOEN.IS",
+    "ARFYE.IS", "ENKAI.IS", "GWIND.IS", "SMRTG.IS", "AKSEN.IS", "AYEN.IS", "EUPWR.IS", "EMPA.IS", "BETAE.IS" "ENTRA.IS",
     # Perakende ve Gıda
     "BIMAS.IS", "SOKM.IS", 
     # Teknoloji
-    "LOGO.IS", "KONTR.IS", "KLSER.IS", "NETAS.IS", "LINK.IS", "MIATK.IS", "FONET.IS", "FORTE.IS",
+    "LOGO.IS", "KONTR.IS", "KLSER.IS", "NETAS.IS", "FORTE.IS", "ALTNY.IS", "NETCD.IS", "SDTTR.IS",
     # Havacılık ve Ulaştırma
     "THYAO.IS", "PGSUS.IS", "TCELL.IS", "TTKOM.IS",
     # Çimento ve Yapı
-    "AKCNS.IS", "CIMSA.IS", "NUHCM.IS", "BUCIM.IS", "KLKIM.IS", "KOPOL.IS",
+    "AKCNS.IS", "CIMSA.IS", "NUHCM.IS", "KLKIM.IS", "QUAGR.IS", "BIENY.IS", "BUCIM.IS",
     # Kimya ve İlaç
-    "AKSA.IS", "HEKTS.IS", "KMPUR.IS", "SASA.IS", "TKFEN.IS", "BRKSN.IS", "DNISI.IS", "MERCN.IS", "TMPOL.IS", "PNLSN.IS",
+    "AKSA.IS", "HEKTS.IS", "KMPUR.IS", "SASA.IS", "TKFEN.IS", "TMPOL.IS", "PNLSN.IS",
     # Diğer Popüler
-    "CVKMD.IS", "QUAGR.IS", "BIENY.IS", "EUREN.IS", "TEZOL.IS","LILAK.IS", "BARMA.IS",
+    "LILAK.IS", "OZRDN.IS", "INTET.IS", "MASFN.IS", "UCAYM.IS", "EKIM.IS", "BNTAS.IS", "CGCAM.IS", "ORZAX.IS", "EFOR.IS"
     
 ]
 
