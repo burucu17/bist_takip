@@ -13,7 +13,7 @@ CHAT_ID = os.environ.get("CHAT_ID", "")
 # BIST 100 Hisse Listesi (Geniş Tarama)
 BIST_100 = [
     # Holdingler
-    "TAVHL.IS", "EKGYO.IS", 
+    "XBANA.IS", "TAVHL.IS", "EKGYO.IS", 
     # Sanayi ve Üretim
     "AKSA.IS", "KRDMA.IS", "KRDMD.IS", "KRDMB.IS", "ISDMR.IS", "EREGL.IS", 
     # Enerji
