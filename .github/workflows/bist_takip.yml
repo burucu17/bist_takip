@@ -2,11 +2,13 @@ name: BIST_Takip
 
 on:
   schedule:
-    - cron: '20 10 * * 1-5'    # Türkiye saatiyle 00:20 (UTC 21:20)
-    - cron: '20 11 * * 1-5'    # Türkiye saatiyle 10:20 (UTC 11:00)
-    - cron: '20 12 * * 1-5'    # Türkiye saatiyle 14:00 (UTC 11:00)
-    - cron: '20 14 * * 1-5'   # Türkiye saatiyle 18:30 (UTC 15:30)
-    - cron: '20 16 * * 1-5'    # Türkiye saatiyle 1:00 (UTC 11:00)
+    - cron: '20 3 * * 1-5'    # Türkiye saatiyle 10:20 (UTC 21:20)
+    - cron: '20 4 * * 1-5'    # Türkiye saatiyle 11:20 (UTC 11:00)
+    - cron: '20 5 * * 1-5'    # Türkiye saatiyle 14:00 (UTC 11:00)
+    - cron: '20 7 * * 1-5'   # Türkiye saatiyle 17:30 (UTC 15:30)
+    - cron: '20 9 * * 1-5'    # Türkiye saatiyle 16:20 (UTC 18:20)
+    - cron: '40 11 * * 1-5'    # Türkiye saatiyle 16:20 (UTC 18:20)
+  
   
   workflow_dispatch:  # Manuel çalıştırma için
 
