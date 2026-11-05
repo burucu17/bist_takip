@@ -15,7 +15,7 @@ BIST_100 = [
     # Holdingler
     "XBANA.IS", "TAVHL.IS", "EKGYO.IS", 
     # Sanayi ve Üretim
-    "AKSA.IS", "KRDMA.IS", "KRDMD.IS", "KRDMB.IS", "ISDMR.IS", "EREGL.IS", 
+    "KRDMA.IS", "KRDMD.IS", "KRDMB.IS", "ISDMR.IS", "EREGL.IS", 
     # Enerji
     "ARFYE.IS", "ENKAI.IS", "GWIND.IS", "SMRTG.IS", "AKSEN.IS", "AYEN.IS", "EUPWR.IS", "EMPA.IS", "BETAE.IS" "ENTRA.IS",
     # Perakende ve Gıda
